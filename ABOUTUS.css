@@ -1,0 +1,189 @@
+body {background-image: url("back4.png")
+    }
+/* this is the background image to our website ^*/
+
+/*this is the form from the contact page css*/
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+padding-bottom: 20px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding-top: 50px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000000;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #4B0082;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/*this is the forms from the contact page css ^*/
+
+/*this is the leadership css for the Leadership page*/
+
+	/* Leaders Page*/
+	#Leadersbox		{position:fixed;}
+	
+	#Patrick  		{display: inline-block;
+					width: 275px;
+					height: 275px;
+					margin: 10px;
+					border-style:solid;
+					border-color:black;
+                    color:white;
+					} 
+	#Walter  		{display: inline-block;
+					width: 275px;
+					height: 280px;
+					background-image: url("Walter.jpg");
+					background-repeat: no-repeat;
+					margin: 10px;
+					border-style:solid;
+					border-color:black;
+                    color:white;
+                    padding-top:268px;
+					}    
+	#Priscia  		{display: inline-block;
+					width: 275px;
+					height: 275px;
+					margin: 10px;
+					border-style:solid;
+					border-color:black;
+					}    
+	#LaValle  		{display: inline-block;
+					width: 275px;
+					height: 275px;
+					margin: 10px;
+					border-style:solid;
+					border-color:black;
+                    color:white;
+					}    	
+	#BioClick		{background-color: rgba(0, 0, 0, 0.3);
+					text-shadow: 2px 2px 20px white;
+					border-style:solid;
+					border-color:black;
+                    color:white;
+	}
+	
+	.img-thumbnail {float:left;
+                    height: 150px;
+                    width: 180px;
+                    margin-right:20px;
+                    margin-top:20px;
+                    margin-left: 80px;
+                    border-radius: 10px;
+					}
+    
+	/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar 		{margin-bottom: 0;
+					border-radius: 0;
+                    font-size: 15px;
+					}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content 	{height: 450px
+					}
+    
+    /* Set gray background color and 100% height */
+    .sidenav 		{padding-top: 20px;
+					background-color: #f1f1f1;
+					height: 100%;
+					}
+    
+    /* Set black background color, white text and some padding */
+    footer 			{margin: 0px; 
+					background-color: #555;
+					color: white;
+					padding: 15px;
+					}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+    .sidenav 		{height: auto;
+					padding: 15px;
+					}
+      .row.content {height:auto;
+					} 
+	/*this is the leadership css for the Leadership page^*/				
