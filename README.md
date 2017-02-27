@@ -2,7 +2,7 @@
 This was a project done with classmates.
 
 I was Lead Developer in charge of finding a color palate,style and Landing page. The actual files will have a purple them as opposed to the codepen example.
-Really enjoyed this project using Bootstrap.
+Really enjoyed this project using Bootstrap solely build on HTML5, CSS3.
 
 Pages coded Index, About Us, Contact.
 
